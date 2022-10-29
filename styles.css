@@ -27,3 +27,18 @@ h1 {
 body {
     background-color: antiquewhite;
 }
+#but {
+    background-color: rgb(225, 247, 240);
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+}
+.bleft {
+    margin-left: 9%;
+}
+.bcenter {
+    margin-left: 22%;
+}
+.bright {
+    margin-left: 22%;
+}
