@@ -2,20 +2,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 60%;    
 }
 .img {
-    width: 20%;
-    height: 30%;
-}
-.left {
-    margin-left: 2cm;
-}
-.center {
-    margin-left: 5cm;
-}
-.right {
-    margin-left: 6cm;
+    display: block;
+    margin-right: auto;
+    width: 10cm;
+    height: auto;
 }
 h2 {
     text-align: center;
@@ -32,18 +25,9 @@ h1 {
 body {
     background-color: antiquewhite;
 }
-#but {
+.button {
     background-color: aliceblue;
-    font-size: larger;
+    font-size: x-large;
     font-style: italic;
     font-weight: bold;
-}
-.bleft {
-    margin-left: 4cm;
-}
-.bcenter {
-    margin-left: 9cm;
-}
-.bright {
-    margin-left: 9cm;
 }
