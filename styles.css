@@ -17,10 +17,15 @@
 .right {
     margin-left: 15%;
 }
-
+h2 {
+    text-align: center;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
 h1 {
     text-align: center;
-    background-color: rgb(189, 189, 189);
+    background-color: aliceblue;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
@@ -28,7 +33,7 @@ body {
     background-color: antiquewhite;
 }
 #but {
-    background-color: rgb(225, 247, 240);
+    background-color: aliceblue;
     font-size: larger;
     font-style: italic;
     font-weight: bold;
