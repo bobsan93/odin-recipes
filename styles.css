@@ -6,7 +6,6 @@
 }
 .img {
     display: block;
-    margin-right: auto;
     width: 10cm;
     height: auto;
 }
@@ -30,4 +29,5 @@ body {
     font-size: x-large;
     font-style: italic;
     font-weight: bold;
+    text-align: right;
 }
