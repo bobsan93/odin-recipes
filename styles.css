@@ -28,6 +28,5 @@ body {
     background-color: aliceblue;
     font-size: x-large;
     font-style: italic;
-    font-weight: bold;
-    text-align: right;
+    font-weight: bold; 
 }
