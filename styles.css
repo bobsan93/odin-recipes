@@ -11,21 +11,21 @@
 }
 h2 {
     text-align: center;
-    background-color: aliceblue;
+    background-color: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
 h1 {
     text-align: center;
-    background-color: aliceblue;
+    background-color: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
 body {
-    background-color: antiquewhite;
+    background-color: azure;
 }
 .button {
-    background-color: aliceblue;
+    background-color: antiquewhite;
     font-size: x-large;
     font-style: italic;
     font-weight: bold; 

@@ -1,9 +1,9 @@
 body {
-    background-color: antiquewhite;
+    background-color: azure;
 }
 h1 {
     text-align: center;
-    background-color: aliceblue;
+    background-color: antiquewhite;
     font-style: italic;
 }
 img {
@@ -11,4 +11,11 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+}
+h3 {
+    background-color: antiquewhite;
+}
+.font {
+    font-weight: lighter;
+    font-family: sans-serif;
 }
