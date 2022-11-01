@@ -4,15 +4,12 @@
     margin-right: auto;
     width: 60%;    
 }
-.pancake {
-    height: 250px;
-}    
 .img {
-    box-sizing: border-box;
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
-    width: 20%;
+    height: 300px;
+    width: 400px;
     border: 5px solid black;
 }
 h2 {
@@ -36,7 +33,7 @@ body {
     font-style: italic;
     font-weight: bold;
     height: auto;
-    width: 20%;
+    width: 410px;
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
