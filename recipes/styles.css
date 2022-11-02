@@ -20,9 +20,12 @@ h3 {
     font-family: sans-serif;
 }
 .but {
-    background-color: antiquewhite;
+    background-color: black;
     font-weight: bold;
     font-size: x-large;
-    border-bottom: 5ch;
-    
+    border: 2px solid black;
+    margin-bottom: 24px;
+}
+a {
+    color: white;
 }
