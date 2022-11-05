@@ -20,7 +20,7 @@ h1, h2 {
     display: flex;
     justify-content: center;
     padding: 15px;
-    gap: 150px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 .img {
