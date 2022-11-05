@@ -10,11 +10,20 @@ h1, h2 {
 .top-image {
     display: flex;
     justify-content: center;
-    
+    background-color: rgb(240, 235, 228);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 800px;
+    border: 5px solid antiquewhite; 
     
 }
 .chef {
-    max-width: 800px;
+    width: 600px;
+    height: auto;
+}
+.top-image-container {
+    display: flex;
+    justify-content: center;
 }
 .recipes-container {
     display: flex;
