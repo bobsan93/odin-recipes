@@ -7,21 +7,27 @@ h1 {
     background-color: antiquewhite;
     border: 5px solid black;
     padding: 10px;
+    font-style: italic;
 }
 .top-content {
     display: flex;
     padding: 30px;
     background-color: antiquewhite;
     gap: 20px;
-    border: 5px solid; 
+    border: 5px solid;
 }
 .top-image {
     display: flex;
     flex-direction: column;
     border: 5px solid black;
-    flex: 1;
+    flex: 1; 
+    max-width:fit-content; 
+    flex-shrink: 1;
 }
-
+img {
+    width: 400px;
+    height: 300px;
+}
 .description {
     display: flex;
     flex-direction: column;
@@ -30,7 +36,7 @@ h1 {
     background-color: rgb(243, 237, 227);
     padding: 10px;
     text-align: center;
-
+    flex-shrink: 0;
 }
 .bottom-content {
     display: flex;
@@ -67,4 +73,8 @@ a {
     color: black;
     font-size: large;
     font-weight: bold;
+}
+h3 {
+    font-size: larger;
+    font-style: italic;
 }
