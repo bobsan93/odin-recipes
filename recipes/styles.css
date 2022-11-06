@@ -1,31 +1,70 @@
 body {
     background-color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1 {
     text-align: center;
     background-color: antiquewhite;
-    font-style: italic;
+    border: 5px solid black;
+    padding: 10px;
 }
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-h3 {
+.top-content {
+    display: flex;
+    padding: 30px;
     background-color: antiquewhite;
+    gap: 20px;
+    border: 5px solid; 
 }
-.font {
-    font-weight: lighter;
-    font-family: sans-serif;
+.top-image {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    flex: 1;
 }
-.but {
-    background-color: black;
-    font-weight: bold;
-    font-size: x-large;
-    border: 2px solid black;
-    margin-bottom: 24px;
+
+.description {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    flex: 2;
+    background-color: rgb(243, 237, 227);
+    padding: 10px;
+    text-align: center;
+
+}
+.bottom-content {
+    display: flex;
+    border: 5px solid black;
+    padding: 30px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    gap: 20px;   
+}
+.ingredients {
+    display: flex;
+    border: 5px solid black;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(243, 237, 227);
+}
+.steps {
+    display: flex;
+    border: 5px solid black;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(243, 237, 227);
+}
+.button {
+    background-color: rgb(243, 237, 227);
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border: 5px solid black;
 }
 a {
-    color: white;
+    color: black;
+    font-size: large;
+    font-weight: bold;
 }
